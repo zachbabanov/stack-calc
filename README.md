@@ -11,16 +11,19 @@
   java StackCalculator source.txt
   ```
 ## Calculator features
-  - \# - commenting current line  
-  - POP - remove a value from stack  
-  - PUSH - get a value to the stack  
-  - +, -, \*, \/, SQRT - arithmetic operators  
-  - PRINT - printing a top stack value without popping it  
-  - DEFINE - rule for a parameter value  
+  - `#` - commenting current line  
+  - `POP` - remove a value from stack  
+  - `PUSH` - get a value to the stack  
+  - `+`, `-`, `*`, `/`, `SQRT` - arithmetic operators  
+  - `PRINT` - printing a top stack value without popping it  
+  - `DEFINE` - rule for a parameter value  
+  
   Filling the source file with these commands make the usage of calculator possible  
+  
+  *`source.txt` file is an example of command usage*
 ## Logging
   Each of above-described functions is logged to terminal while processing
-  As for example, before processing any line without a "#" symbol there will be following information in the log:
+  As for example, before processing any line without a `#` symbol there will be following information in the log:
   ```
   Processing line: \linenumber
   ```
